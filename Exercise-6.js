@@ -1,18 +1,21 @@
 function angkaPalindrome(num) {
   // you can only write your code here!
   var palindrome = 0;
-  while(palindrome == 0){
-      reverse = num.toString().split("").reverse().join("");
-      reverse = parseInt(reverse);
-      if(reverse === num){
-          palindrome = 1;
-      }
-      else{
-          num++;
-      }
+  while (palindrome == 0) {
+    reverse = num
+      .toString()
+      .split("")
+      .reverse()
+      .join("");
+    reverse = parseInt(reverse);
+    if (reverse === num) {
+      palindrome = 1;
+    } else {
+      num++;
+    }
   }
-  if(num<11){
-      return num += 1;
+  if (num < 11) {
+    return num += 1;
   }
   return num;
 }
