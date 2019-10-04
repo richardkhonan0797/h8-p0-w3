@@ -23,15 +23,4 @@ FOR bola = 1 to 50
 END FOR
 DISPLAY countMerah and countPutih
 
-for(i=0;i<warnaBola.length;i++){
-    if(warnaBola[i] == 'merah')
-    {
-        countMerah++
-    }else{
-        countPutih++
-    }
-}
-
-print ("Bola merah: "+countMerah+"Bola putih: "+countPutih)
-
 */
